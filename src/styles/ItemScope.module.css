@@ -1,0 +1,45 @@
+.itemscope {
+    padding: 50px 0px;
+    text-align: center;
+    background: url(/images/pattern2.jpg) center top repeat-y;
+}
+.itemscope .item {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.itemscope .item img {
+    display: inline-block;
+}
+.itemscope .item h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 0px;
+    color: #c7a94d;
+    position: relative;
+}
+.itemscope .item h3:before {
+    content: "";
+    background: url(/images/fancy-before.png) center center no-repeat;
+    width: 71px;
+    height: 14px;
+    top: 50%;
+    left: 0px;
+    margin-top: -7px;
+    position: absolute;
+}
+.itemscope .item h3:after {
+    content: "";
+    background: url(/images/fancy-after.png) center center no-repeat;
+    width: 71px;
+    height: 14px;
+    top: 50%;
+    right: 0px;
+    margin-top: -7px;
+    position: absolute;
+}
+.itemscope .item a:hover {
+    color: #fff !important;
+}

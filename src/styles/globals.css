@@ -1,0 +1,132 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.nav-link {
+  color: #c7a94d !important;
+}
+
+.widget {
+  margin-bottom: 25px;
+}
+
+.display-flex {
+  display: flex;
+}
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Input Style */
+input[type="text"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="file"], select, textarea {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 10px 15px;
+  width: 100%;
+  margin-bottom: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+/* Button style */
+.all-btn {
+  border: 1px solid #c7a94d;
+  padding: 2px;
+  display: inline-block;
+  text-decoration: none;
+  background: none;
+}
+.all-btn span {
+  color: #000;
+  background: #c7a94d;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 11.5px 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.all-btn.big span {
+  font-size: 22px;
+  line-height: 22px;
+  padding: 15px 35px;
+  font-weight: 400;
+}
+.all-btn.small span {
+  font-size: 13px;
+  line-height: 13px;
+  padding: 7px 15px;
+  font-weight: 400;
+}
+.all-btn i {
+  margin-left: 10px;
+}
+.all-btn:hover, .all-btn.gray:hover, .all-btn.white:hover {
+  border: 1px solid #f2c700;
+}
+.all-btn:hover span, .all-btn.gray:hover span, .all-btn.white:hover span {
+  color: #000;
+  background: #f2c700;
+}
+.all-btn.gray {
+  border: 1px solid #ccc;
+}
+.all-btn.gray span {
+  color: #000;
+  background: #ccc;
+}
+.all-btn.white {
+  border: 1px solid #fff;
+}
+.all-btn.white span {
+  color: #000;
+  background: #fff;
+}
+.all-btn.rev {
+  border: 1px solid #f2c700;
+}
+.all-btn.rev span {
+  color: #000;
+  background: #f2c700;
+}
+.all-btn.rev:hover {
+  border: 1px solid #c7a94d;
+}
+.all-btn.rev:hover span {
+  color: #fff;
+  background: #c7a94d;
+}
+.space {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+}
+
+a {
+  color: #c7a94d;
+}
+a:hover, a:focus, a:active {
+  color: #000;
+  text-decoration: none;
+}
+
+hr {
+  clear: both;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
