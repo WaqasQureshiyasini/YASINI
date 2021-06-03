@@ -1,0 +1,206 @@
+/* Header CSS */
+.top_bar {
+    background: #000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    margin: 0px;
+    padding: 7px 0px;
+}
+.top_bar .row {
+    margin: 0px;
+    padding: 0px;
+}
+.top_bar ul {
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+}
+.top_bar ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    color: #c7a94d;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 0px;
+    padding: 0px 15px;
+}
+.top_bar ul li:last-child {
+    border-right: none;
+}
+.top_bar ul li i {
+    margin-right: 4px;
+    color: #c7a94d;
+}
+.top_bar ul li a {
+    font-size: 12px;
+    color: #c7a94d;
+    text-decoration: none;
+    transition: all ease-in-out .2s;
+    text-transform: uppercase;
+    margin: 0px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+}
+.top_bar ul li a:hover, .top_bar ul.account li a:hover i {
+    color: #ffffff;
+}
+.top_bar ul li a.mybag span {
+    position: absolute;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 12px;
+    top: 0px;
+    right: 0px;
+}
+.top_bar .mybag.items-added span {
+    /* counter visible when a product is added to the cart */
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.top_bar ul.acc {
+    display: inline-block;
+}
+.top_bar ul.acc li {
+    padding: 0px;
+}
+.top_bar ul.acc li:last-child {
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+}
+.top_bar ul.acc li a {
+    height: 35px;
+    line-height: 35px;
+    padding: 0px 10px;
+}
+.top_bar ul.acc li i {
+    margin: 0px;
+    width: 16px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+.top_bar ul.acc li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+.top_bar .search {
+    display: inline-block;
+}
+.top_bar .search input[type="text"] {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    /*border-right: none;*/
+    padding: 0px 10px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px;
+    transition: all .2s ease-in-out;
+    box-shadow: none;
+}
+.top_bar .search input[type="text"]:focus {
+    color: rgba(255, 255, 255, 1);
+}
+.top_bar .search button {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+    background: none;
+    color: #c7a94d;
+    padding: 0px;
+    margin: 0px;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.top-section {
+    background: #171717  url("/images/pattern1.png") ;
+}
+.top-section .row {
+    background: url("/images/header-overlay.png") center top repeat-y;
+    margin: 0px;
+    padding: 0px;
+}
+.top-section img {
+    display: inline-block;
+}
+.top-section .logo {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.navbar-wrapper {
+    text-align: center;
+}
+
+.top-navigation {
+    padding: 0px;
+}
+.top-navigation .logo_top {
+    display: none;
+}
+body.fixed .fixed-top .logo_top {
+    display: inline-block;
+    height: 20px;
+}
+.top-navigation ul {
+    padding: 0px;
+    margin: 0px;
+}
+.top-navigation li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+.top-navigation li a {
+    font-size: 14px;
+    line-height: 50px;
+    color: #c7a94d;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all ease-in-out .2s;
+    padding: 0px;
+    display: inline-block;
+}
+.top-navigation li a:hover {
+    color: #fff;
+}
+.top-navigation .search {
+    display: none;
+}
+body.fixed .fixed-top .top-navigation .search {
+    display: inline-block;
+}
+.top-navigation .search input[type="text"] {
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: none;
+    padding: 0px 10px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    width: 175px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px;
+    transition: all .2s ease-in-out;
+    box-shadow: none;
+}
+.top-navigation .search input[type="text"]:focus {
+    color: rgba(255, 255, 255, 1);
+}
+.top-navigation .search button {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    background: none;
+    color: #c7a94d;
+    padding: 0px 10px;
+    margin: 0px;
+    height: 30px;
+    line-height: 20px;
+    font-size: 14px;
+}
